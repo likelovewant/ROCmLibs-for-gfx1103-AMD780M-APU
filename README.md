@@ -8,7 +8,7 @@ Download ROCmLibs.zip and place them into %HIP_PATH\bin\rocblas\ after renaming 
 Put rocblas.dll  under rocblas\library folder (eg, C:\Program Files\AMD\ROCm\5.7\bin) replace the origial one 
 
 Rename library to something else, like origlibrary
-Download ROCmLibsgfx1103.zip
+Download rocm gfx1103 phoenix.7z ( original ROCmLibsgfx1103.zip)
 Open the zip file.
 Drag and drop the library folder from ROCmLibs.zip into %HIP_PATH%bin\rocblas (The folder you opened in step 1).
 Reboot PC
@@ -17,9 +17,14 @@ Then it should be fine .
 Currently , it has test on sd next ( stable diffusion ) in zluda way,its works well . Can be 2-3 times faster than directml .
 However, gfx 1103 is not official support on ROCM . There maybe have some upredictable clash or other risk . 
 
+For sd use this  git clone https://githubfast.com/lshqqytiger/stable-diffusion-webui-directml.git
+
+--webui.bat --use-zluda
 
 Added ROCmLibs_Testing.7z for the following archs
 (You'll need to install 7-zip or WinRAR to extract this archive.)
 
 gfx1101
 gfx1103 （amd 780m）
+
+for roblab ,use the phoenix one .rocm gfx1103 phoenix.7z
