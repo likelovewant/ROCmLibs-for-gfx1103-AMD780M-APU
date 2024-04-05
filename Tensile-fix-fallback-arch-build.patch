@@ -1,0 +1,46 @@
+diff --git a/Tensile/TensileCreateLibrary.py b/Tensile/TensileCreateLibrary.py
+index 1e2fce99..e4ed742b 100644
+--- a/Tensile/TensileCreateLibrary.py
++++ b/Tensile/TensileCreateLibrary.py
+@@ -1078,6 +1078,11 @@ def generateLogicDataAndSolutions(logicFiles, args):
+       for key, value in masterLibraries.items():
+         if key != "fallback":
+           value.merge(deepcopy(masterLibraries["fallback"]))
++      for architectureName in parseArchitecturesFromArgs(args.Architecture, True):
++        if architectureName not in masterLibraries:
++          print("Using fallback for arch: "+architectureName)
++          masterLibraries[architectureName] = deepcopy(masterLibraries["fallback"])
++          masterLibraries[architectureName].version = args.version
+ 
+       masterLibraries.pop("fallback")
+ 
+@@ -1145,6 +1150,17 @@ def WriteClientLibraryFromSolutions(solutionList, libraryWorkingPath, tensileSou
+ 
+   return (codeObjectFiles, newLibrary)
+ 
++def parseArchitecturesFromArgs(architectureArgValue, handleLiteralAllAsList):
++  if architectureArgValue == 'all' and handleLiteralAllAsList:
++    archs = [gfxName(arch) for arch in globalParameters['SupportedISA']]
++  else:
++    if ";" in architectureArgValue:
++      archs = architectureArgValue.split(";") # user arg list format
++    else:
++      archs = architectureArgValue.split("_") # workaround for cmake list in list issue
++
++  return archs
++
+ ################################################################################
+ # Tensile Create Library
+ ################################################################################
+@@ -1265,10 +1281,7 @@ def TensileCreateLibrary():
+   if not os.path.exists(logicPath):
+     printExit("LogicPath %s doesn't exist" % logicPath)
+ 
+-  if ";" in arguments["Architecture"]:
+-    archs = arguments["Architecture"].split(";") # user arg list format
+-  else:
+-    archs = arguments["Architecture"].split("_") # workaround for cmake list in list issue
++  archs = parseArchitecturesFromArgs(arguments["Architecture"], False)
+   logicArchs = set()
+   for arch in archs:
+     if arch in architectureMap:
