@@ -43,7 +43,12 @@ However, gfx 1103 is not official support on ROCm . There maybe have some upredi
 		
 	gfx1035 amd680 rembrandt V2.7z ( 2nd edition , only for gfx1035)
 
-(You'll need to install 7-zip or WinRAR to extract this archive.)
+
+
+other gpus add for gfx803、gfx900、gfx1010、gfx1031、gfx1032
+
+	rocBLAS-HIP5.7.1-win.rar
+ (You'll need to install 7-zip or WinRAR to extract this archive.)
 
 
 `rocm for Linux available on relesae page (only test on ubutun for ROCm 6.1,for gfx1103,1100)`
