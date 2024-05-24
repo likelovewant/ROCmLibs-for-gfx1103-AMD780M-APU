@@ -45,9 +45,14 @@ However, gfx 1103 is not official support on ROCm . There maybe have some upredi
 
 
 
-other gpus add for gfx803、gfx900、gfx1010、gfx1031、gfx1032
+other gpus add for `gfx803、gfx900、gfx1010、gfx1031、gfx1032`
 
 	rocBLAS-HIP5.7.1-win.rar
+
+add more gpu for `gfx1010;gfx1101;gfx1012;gfx1031;gfx1032;gfx1033;gfx1034;gfx1035;gfx1036;gfx1103`( large, over 1.4G)
+
+	rocBLAS-HIP5.7.0-win.7z
+ 
  (You'll need to install 7-zip or WinRAR to extract this archive.)
 
 
