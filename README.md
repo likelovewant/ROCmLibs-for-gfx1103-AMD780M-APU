@@ -47,6 +47,10 @@ However, gfx 1103 is not official support on ROCm . There maybe have some upredi
  
  	rocblas for gfx902.7z
 
+gfx940,gfx941,gfx942
+
+	rocblas for gfx940_ gfx941_ gfx942.7z
+
 
 
 other gpus add for `gfx803、gfx900、gfx1010、gfx1031、gfx1032`
@@ -57,7 +61,7 @@ add more gpu for `gfx1010;gfx1101;gfx1012;gfx1031;gfx1032;gfx1033;gfx1034;gfx103
 
 	rocBLAS-HIP5.7.0-win.7z
 add more gpu for `gfx1010;gfx1011;gfx1012;gfx1030;gfx1031;gfx1032;gfx1034;gfx1035;gfx1036;gfx1100;gfx1101;gfx1102;gfx1103`
-( large, over 1.2G , recommend if you want to incorporate into an existing rocm project ,if you want add more gpu with the package ,follow the wiki method to add more gpu ,make sure you have at least 64ram otherwise ,it's may easiy crash during the build )
+( large, over 1.65G , recommend if you want to incorporate into an existing rocm project ,if you want add more gpu with the package ,follow the wiki method to add more gpu ,make sure you have at least 64ram otherwise ,it's may easiy crash during the build )
 
 	Rocm rocblas HIP5.7.0.V2.7z
  
