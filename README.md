@@ -43,6 +43,10 @@ However, gfx 1103 is not official support on ROCm . There maybe have some upredi
 		
 	gfx1035 amd680 rembrandt V2.7z ( 2nd edition , only for gfx1035)
 
+gfx803
+ 
+ 	rocblas for gfx803 (override with vega10).7z 
+ 
  gfx902
  
  	rocblas for gfx902.7z
@@ -50,6 +54,14 @@ However, gfx 1103 is not official support on ROCm . There maybe have some upredi
 gfx940,gfx941,gfx942
 
 	rocblas for gfx940_ gfx941_ gfx942.7z
+
+gfx90c
+ 
+ 	rocblas for gfx90c and building guide.7z
+
+gfx906
+ 
+ 	rocblas for gfx906.7z
 
 
 
