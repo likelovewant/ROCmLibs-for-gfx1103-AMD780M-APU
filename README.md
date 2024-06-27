@@ -22,7 +22,7 @@ Reboot PC or not .
 
 Then it should be fine .
 
-Currently , it has test on`ollama, llama.cpp, sd next ( stable diffusion ),stalbe diffusion directml,webui forge amd in zluda way`,its works well . Can be 2-3 times faster than` directml `.
+Currently , it has test on`ollama, llama.cpp, sd next ( stable diffusion ),stalbe diffusion directml,webui forge amd in zluda way `,its works well . Can be 2-3 times faster than` directml `. also supported on  [LM Studio](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU)
 
 However, gfx 1103 is not official support on ROCm . There maybe have some upredictable clashes or other risks . 
 
