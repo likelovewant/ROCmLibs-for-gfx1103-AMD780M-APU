@@ -59,10 +59,21 @@ gfx90c
  
  	rocblas for gfx90c and building guide.7z
 
+gfx90c:xnack-
+ 
+ 	rocblas for gfx90c:xnack- V2.7z
+
 gfx906
  
  	rocblas for gfx906.7z
 
+gfx1010:xnack-
+ 
+ 	rocblas for gfx1010:xnack- with building guide.7z
+
+gfx1012:xnack-
+ 
+ 	rocblas for gfx1012:xnack- with building guide.7z
 
 
 other gpus add for `gfx803、gfx900、gfx1010、gfx1031、gfx1032`
@@ -73,7 +84,7 @@ add more gpu for `gfx1010;gfx1101;gfx1012;gfx1031;gfx1032;gfx1033;gfx1034;gfx103
 
 	rocBLAS-HIP5.7.0-win.7z
 add more gpu for `gfx1010;gfx1011;gfx1012;gfx1030;gfx1031;gfx1032;gfx1034;gfx1035;gfx1036;gfx1100;gfx1101;gfx1102;gfx1103`
-( large, over 1.65G , recommend if you want to incorporate into an existing rocm project ,if you want add more gpu with the package ,follow the wiki method to add more gpu ,make sure you have at least 64ram otherwise ,it's may easiy crash during the build )
+( 20MB , unzipped up to over 1.65G , recommend if you want to incorporate into an existing rocm project ,if you want add more gpu with the package ,follow the wiki method to add more gpu ,make sure you have at least 64ram otherwise ,it's may easiy crash during the build )
 
 	Rocm rocblas HIP5.7.0.V2.7z
  
@@ -87,3 +98,5 @@ Note: Linux version availalbe ,However ,it is not recommended . There easier app
 For amd780m roblab ,use the phoenix one `.rocm gfx1103 phoenix.7z `or rocm `gfx1103 AMD780M phoenix V3.7z`
 
 Others please seclect base on your amd arch . 
+
+### Note:Don't creat issue on this repo for other reasons. eg, the ollama-for-amd , instead creat an issue over there ,otherwise, it's will creat more complex for us .
