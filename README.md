@@ -57,7 +57,7 @@ gfx940,gfx941,gfx942
 
 gfx90c
  
- 	rocblas for gfx90c and building guide.7z
+ 	rocblas for gfx90c workable.7z
 
 gfx90c:xnack-
  
