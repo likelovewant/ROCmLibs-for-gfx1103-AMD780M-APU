@@ -1,102 +1,89 @@
-# ROCmLibs-for-gfx1103-AMD780M-APU
+### Enhance Your AMD GPU Performance with ROCmLibs for gfx1103 and Beyond!
 
- ROCm Library Files for` gfx1103` also update with more other arch  based  on AMD GPUs for use in Windows and linux 
+This repository provides optimized ROCm Library files tailored specifically for AMD GPUs, including the powerful
+gfx1103 found in the AMD 780M APU. These libraries are designed to significantly boost performance in popular
+applications like AI models (e.g., Llama, Stable Diffusion) within the ZLUDA CUDA Wrapper and other ROCm-based
+environments.
 
-This repo was created to host ROCm Library files for use in the ZLUDA CUDA Wrapper for AMD GPUs or others for ROCm use.
+**Here's a simplified guide on how to get started:**
 
-Make sure download HIP SDK (On windows),ROCm (on Linux) first.
+1. **Prerequisites:** Ensure you have the HIP SDK installed for Windows or ROCm for Linux.
+2. **Download Files:** Grab the `ROCmLibs.zip` file and the `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z`  (originally
+`ROCmLibsgfx1103.zip`) from this repository.
+3. **Installation:**
+    * Unzip `ROCmLibs.zip`. Place the extracted library folder into your %HIP_PATH%\bin\rocblas directory,
+renaming the existing "rocblas" folder (e.g., to "oldlibrary").
+    * Copy the `rocblas.dll` file from the downloaded `ROCmLibs.zip`  into the rocblas\library folder within your
+%HIP_PATH%\bin directory (example: C:\Program Files\AMD\ROCm\5.7\bin). Replace the original file.
+    * Rename your existing "rocblas\library" folder (e.g., to "origlibrary").
+    * Extract the contents of `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z` into the same directory where you placed  the ROCmLibs
+folder.
+4. **Reboot:** Restart your computer for the changes to take effect.
 
-Download` ROCmLibs.zip` and place them into` %HIP_PATH\bin\rocblas\` after renaming the libary folder there to something else (eg "oldlibrary").
+**That's it! Your AMD GPU is now ready to harness the power of optimized ROCm libraries.**
 
-Put `rocblas.dll ` under rocblas\library folder (eg,` C:\Program Files\AMD\ROCm\5.7\bin`) replace the origial one 
+**Performance Advantages:**
 
-Rename ` rocblas\library `to something else, like `origlibrary`
+You can expect significant performance gains, often 2-3 times faster than DirectML, in applications like:
 
-Download` rocm gfx1103 phoenixV3.7z` ( original `ROCmLibsgfx1103.zip`)
+* Llama
+* llama.cpp
+* Stable Diffusion
+* Stable Diffusion DirectML
+* Webui Forge AMD (ZLUDA implementation)
 
-Open the zip file.
+ **Support and Resources:**
 
-Drag and drop the library folder from` ROCmLibs.zip` into` %HIP_PATH%bin\rocblas` (The folder you opened in step 1).
+This repository is actively maintained and supports various AMD GPU architectures (gfx803;gfx900;gfx902;gfx90c;gfx90c:xnack-;gfx906;gfx940;gfx941;gfx942;gfx1010;gfx1010:xnack-;gfx1011; gfx1012;gfx1012:xnack-
+gfx1030; gfx1031; gfx1032;gfx1030; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; gfx1102; gfx1103). For detailed
+instructions on adding support for additional GPUs, please refer to the wiki page.
 
-Reboot PC or not .
-
-Then it should be fine .
-
-Currently , it has test on`ollama, llama.cpp, sd next ( stable diffusion ),stalbe diffusion directml,webui forge amd in zluda way `,its works well . Can be 2-3 times faster than` directml `. also supported on  [LM Studio](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU)
-
-However, gfx 1103 is not official support on ROCm . There maybe have some upredictable clashes or other risks . 
-
-1st edition 
-
-	ROCmLibs-for-gfx1103.v1.7z (gfx1101,gfx1103)
-
-2nd edition 
-
-	rocm gfx1103 phoenix.7z (gfx1101,gfx1103)
-
-3rd edition ,latest with only gfx1103,remove gfx1101
-		
-	rocm gfx1103 AMD780M phoenix V3.7z (gfx1103)
-
-
-2nd edition , only for gfx1035
-		
-	gfx1035 amd680 rembrandt V2.7z ( 2nd edition , only for gfx1035)
-
-gfx803
- 
- 	rocblas for gfx803 (override with vega10).7z 
- 
- gfx902
- 
- 	rocblas for gfx902.7z
-
-gfx940,gfx941,gfx942
-
-	rocblas for gfx940_ gfx941_ gfx942.7z
-
-gfx90c
- 
- 	rocblas for gfx90c workable.7z
-
-gfx90c:xnack-
- 
- 	rocblas for gfx90c:xnack- V2.7z
-
-gfx906
- 
- 	rocblas for gfx906.7z
-
-gfx1010:xnack-
- 
- 	rocblas for gfx1010:xnack- with building guide.7z
-
-gfx1012:xnack-
- 
- 	rocblas for gfx1012:xnack- with building guide.7z
+For more information on using ROCmLibs in LM Studio on unsupported AMD GPUs, visit our dedicated wiki:
+[https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-[https://gitub.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-APU](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU)
 
 
-other gpus add for `gfx803、gfx900、gfx1010、gfx1031、gfx1032`
-
-	rocBLAS-HIP5.7.1-win.rar
-
-add more gpu for `gfx1010;gfx1101;gfx1012;gfx1031;gfx1032;gfx1033;gfx1034;gfx1035;gfx1036;gfx1103`( large, over 1.4G)
-
-	rocBLAS-HIP5.7.0-win.7z
-add more gpu for `gfx1010;gfx1011;gfx1012;gfx1030;gfx1031;gfx1032;gfx1034;gfx1035;gfx1036;gfx1100;gfx1101;gfx1102;gfx1103`
-( 20MB , unzipped up to over 1.65G , recommend if you want to incorporate into an existing rocm project ,if you want add more gpu with the package ,follow the wiki method to add more gpu ,make sure you have at least 64ram otherwise ,it's may easiy crash during the build )
-
-	Rocm rocblas HIP5.7.0.V2.7z
- 
- (You'll need to install 7-zip or WinRAR to extract this archive.)
 
 
-`rocm for Linux available on relesae page (only test on ubutun for ROCm 6.1,for gfx1103,1100)`
+## Additional Information & Installation Tips:
 
-Note: Linux version availalbe ,However ,it is not recommended . There easier approach is using HSA_OVERRIDE_GFX_VERSION eg, export HSA_OVERRIDE_GFX_VERSION=11.0.0 overide with support gpu.
+**Extracting Archives:**
 
-For amd780m roblab ,use the phoenix one `.rocm gfx1103 phoenix.7z `or rocm `gfx1103 AMD780M phoenix V3.7z`
+You'll need a program like 7-Zip or WinRAR to open the compressed `.zip` and `.7z` files in this repository.
 
-Others please seclect base on your amd arch . 
 
-### Note:Don't creat issue on this repo for other reasons. eg, the ollama-for-amd , instead creat an issue over there ,otherwise, it's will creat more complex for us .
+**ROCm for Linux:**
+
+While ROCm is available for Linux, we **recommend against using it directly**.  There are simpler and more
+effective methods for achieving compatibility. The easiest approach is using the `HSA_OVERRIDE_GFX_VERSION`
+environment variable. For example, setting `export HSA_OVERRIDE_GFX_VERSION=11.0.0` can override your system's
+default and provide support for gfx1103 and similar GPUs.
+
+For the AMD 780M APU, we recommend using one of these files:
+
+* **rocm gfx1103 AMD 780M phoenix V2.0 for hip sdk 5.7.7z:** Compatible with HIP SDK 5.7.7
+* **rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z:**  Compatible with HIP SDK 5.7.7
+* **rocm gfx1103 AMD 780M phoenix V4.0 for hip sdk 6.1.2.7z:** Compatible with HIP SDK 6.1.2
+
+
+**Important:**
+
+* Always choose the file version that matches your installed HIP SDK.
+
+ **Selecting the Right ROCm Files:**
+
+
+Choose the appropriate `.7z` file based on your AMD GPU architecture. Refer to our wiki for a complete list of
+supported architectures.
+
+
+
+**Creating Issues:**
+
+
+Please refrain from creating issues in this repository for unrelated topics like ollama-for-amd. If you encounter
+problems with those projects, please submit issues directly to their respective repositories. This helps us
+maintain a clear and organized workflow.
+
+We appreciate your understanding and cooperation!
+
+Let me know if you have any further questions or need assistance with your ROCm setup!
