@@ -40,8 +40,9 @@ gfx1030; gfx1031; gfx1032;gfx1030; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; 
 
 The builded ROCmlibs for the other arches listed above moved the released page .
 
-[hip sdk 5.7](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.5.7)
-[hip sdk 6.1.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.1.2)
+[Hip SDK 5.7](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.5.7)
+
+[Hip SDK 6.1.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.1.2)
 
 For detailed
 instructions on adding support for additional GPUs, please refer to the wiki page.
