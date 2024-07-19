@@ -31,15 +31,23 @@ You can expect significant performance gains, often 2-3 times faster than Direct
 * Stable Diffusion
 * Stable Diffusion DirectML
 * Webui Forge AMD (ZLUDA implementation)
+* LM Studio (ROCm Support for other AMD Support beside the official support)
 
  **Support and Resources:**
 
-This repository is actively maintained and supports various AMD GPU architectures (gfx803;gfx900;gfx902;gfx90c;gfx90c:xnack-;gfx906;gfx940;gfx941;gfx942;gfx1010;gfx1010:xnack-;gfx1011; gfx1012;gfx1012:xnack-
-gfx1030; gfx1031; gfx1032;gfx1030; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; gfx1102; gfx1103). For detailed
+This repository is actively maintained and supports various AMD GPU architectures (`gfx803;gfx900;gfx902;gfx90c;gfx90c:xnack-;gfx906;gfx940;gfx941;gfx942;gfx1010;gfx1010:xnack-;gfx1011; gfx1012;gfx1012:xnack-
+gfx1030; gfx1031; gfx1032;gfx1030; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; gfx1102; gfx1103`). 
+
+The builded ROCmlibs for the other arches listed above moved the released page .
+
+[hip sdk 5.7](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.5.7)
+[hip sdk 6.1.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.1.2)
+
+For detailed
 instructions on adding support for additional GPUs, please refer to the wiki page.
 
 For more information on using ROCmLibs in LM Studio on unsupported AMD GPUs, visit our dedicated wiki:
-[https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-[https://gitub.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-APU](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU)
+[ LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU ](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-APU)
 
 
 
