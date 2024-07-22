@@ -18,7 +18,7 @@ renaming the existing "rocblas" folder (e.g., to "oldlibrary").
     * Rename your existing "rocblas\library" folder (e.g., to "origlibrary").
     * Extract the contents of `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z` into the same directory where you placed  the ROCmLibs
 folder.
-4. **Reboot:** Restart your computer for the changes to take effect.
+4. **Reboot:** Restart your computer for the changes to take effect (not a must do).
 
 **That's it! Your AMD GPU is now ready to harness the power of optimized ROCm libraries.**
 
@@ -26,16 +26,18 @@ folder.
 
 You can expect significant performance gains, often 2-3 times faster than DirectML, in applications like:
 
-* Llama
-* llama.cpp
+* [ollama](https://github.com/likelovewant/ollama-for-amd)
+* [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * Stable Diffusion
-* Stable Diffusion DirectML
-* Webui Forge AMD (ZLUDA implementation)
+* [Stable Diffusion DirectML](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu)
+* [stable-diffusion-webui-forge-on-amd](https://github.com/likelovewant/stable-diffusion-webui-forge-on-amd)
+* [stable-diffusion-webui-amdgpu-forge](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu-forge)
+
 * LM Studio (ROCm Support for other AMD Support beside the official support)
 
  **Support and Resources:**
 
-This repository is actively maintained and supports various AMD GPU architectures (`gfx803;gfx900;gfx902;gfx90c;gfx90c:xnack-;gfx906;gfx940;gfx941;gfx942;gfx1010;gfx1010:xnack-;gfx1011; gfx1012;gfx1012:xnack-
+This repository is actively maintained and supports various AMD GPU architectures for Windows (`gfx803;gfx900;gfx902;gfx90c;gfx90c:xnack-;gfx906;gfx940;gfx941;gfx942;gfx1010;gfx1010:xnack-;gfx1011; gfx1012;gfx1012:xnack-
 gfx1030; gfx1031; gfx1032;gfx1030; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; gfx1102; gfx1103`). 
 
 The builded ROCmlibs for the other arches listed above moved to released page .
@@ -62,12 +64,13 @@ You'll need a program like 7-Zip or WinRAR to open the compressed `.zip` and `.7
 
 **ROCm for Linux:**
 
-While ROCm is available for Linux, we **recommend against using it directly**.  There are simpler and more
+While ROCm is available for Linux on the releases page, we **recommend against using it directly**.  There are simpler and more
 effective methods for achieving compatibility. The easiest approach is using the `HSA_OVERRIDE_GFX_VERSION`
 environment variable. For example, setting `export HSA_OVERRIDE_GFX_VERSION=11.0.0` can override your system's
 default and provide support for gfx1103 and similar GPUs.
 
-For the AMD 780M APU, we recommend using one of these files:
+**ROCm for Windows:**
+For the AMD 780M APU on Windows, we recommend using one of these files:
 
 * **rocm gfx1103 AMD 780M phoenix V2.0 for hip sdk 5.7.7z:** Compatible with HIP SDK 5.7.1
 * **rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z:**  Compatible with HIP SDK 5.7.1
@@ -81,7 +84,7 @@ For the AMD 780M APU, we recommend using one of these files:
  **Selecting the Right ROCm Files:**
 
 
-Choose the appropriate `.7z` file based on your AMD GPU architecture. Refer to our wiki for a complete list of
+Choose the appropriate `.7z` file based on your AMD GPU architecture. Refer to the release page for a complete list of
 supported architectures.
 
 
@@ -90,7 +93,7 @@ supported architectures.
 
 
 Please refrain from creating issues in this repository for unrelated topics like ollama-for-amd. If you encounter
-problems with those projects, please submit issues directly to their respective repositories. This helps us
+problems with those projects, please submit issues directly to the respective repositories. This helps us
 maintain a clear and organized workflow.
 
 We appreciate your understanding and cooperation!
