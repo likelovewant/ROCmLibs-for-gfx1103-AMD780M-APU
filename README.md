@@ -33,7 +33,7 @@ You can expect significant performance gains, often 2-3 times faster than Direct
 * [stable-diffusion-webui-forge-on-amd](https://github.com/likelovewant/stable-diffusion-webui-forge-on-amd)
 * [stable-diffusion-webui-amdgpu-forge](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu-forge)
 
-* LM Studio (ROCm Support for other AMD Support beside the official support)
+* [ LM Studio](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Unlock-LM-Studio-on-Any-AMD-GPU-with-ROCm-Guide)
 
  **Support and Resources:**
 
@@ -50,7 +50,7 @@ For detailed
 instructions on adding support for additional GPUs, please refer to the wiki page.
 
 For more information on using ROCmLibs in LM Studio on unsupported AMD GPUs, visit our dedicated wiki:
-[ LM-Studio-ROCm-Supported-On-Unsupported-AMD-GPU ](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/LM-Studio-ROCm-Supported-On-Unsupported-APU)
+[ LM Studio](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Unlock-LM-Studio-on-Any-AMD-GPU-with-ROCm-Guide)
 
 
 
