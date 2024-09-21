@@ -28,17 +28,17 @@ You can expect significant performance gains, often 2-3 times faster than Direct
 
 * [ollama](https://github.com/likelovewant/ollama-for-amd)
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
-* Stable Diffusion
+* [SD Next]（https://github.com/vladmandic/automatic/wiki/ZLUDA）
 * [Stable Diffusion DirectML](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu)
 * [stable-diffusion-webui-forge-on-amd](https://github.com/likelovewant/stable-diffusion-webui-forge-on-amd)
 * [stable-diffusion-webui-amdgpu-forge](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu-forge)
-
+*[Training LoRA Models with FluxGym, Zluda, and ROCm on Windows](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Training-Flux-LoRA-Models-with-FluxGym,-Zluda,-and-ROCm-on-Windows)
 * [ LM Studio](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Unlock-LM-Studio-on-Any-AMD-GPU-with-ROCm-Guide)
 
  **Support and Resources:**
 
 This repository is actively maintained and supports various AMD GPU architectures for Windows (`gfx803;gfx900;gfx902;gfx90c;gfx90c:xnack-;gfx906;gfx940;gfx941;gfx942;gfx1010;gfx1010:xnack-;gfx1011; gfx1012;gfx1012:xnack-
-gfx1030; gfx1031; gfx1032;gfx1030; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; gfx1102; gfx1103`). 
+gfx1030; gfx1031; gfx1032; gfx1034; gfx1035; gfx1036; gfx1100; gfx1101; gfx1102; gfx1103`). 
 
 The builded ROCmlibs for the other arches listed above moved to released page .
 
