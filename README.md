@@ -28,11 +28,11 @@ You can expect significant performance gains, often 2-3 times faster than Direct
 
 * [ollama](https://github.com/likelovewant/ollama-for-amd)
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
-* [SD Next]（https://github.com/vladmandic/automatic/wiki/ZLUDA）
+* [SD.Next](https://github.com/vladmandic/automatic/wiki/ZLUDA)
 * [Stable Diffusion DirectML](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu)
 * [stable-diffusion-webui-forge-on-amd](https://github.com/likelovewant/stable-diffusion-webui-forge-on-amd)
 * [stable-diffusion-webui-amdgpu-forge](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu-forge)
-*[Training LoRA Models with FluxGym, Zluda, and ROCm on Windows](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Training-Flux-LoRA-Models-with-FluxGym,-Zluda,-and-ROCm-on-Windows)
+* [Training Flux LoRA Models with FluxGym, Zluda, and ROCm on Windows](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Training-Flux-LoRA-Models-with-FluxGym,-Zluda,-and-ROCm-on-Windows)
 * [ LM Studio](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki/Unlock-LM-Studio-on-Any-AMD-GPU-with-ROCm-Guide)
 
  **Support and Resources:**
