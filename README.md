@@ -8,12 +8,12 @@ environments.
 **Here's a simplified guide on how to get started:**
 
 1. **Prerequisites:** Ensure you have the HIP SDK installed for Windows or ROCm for Linux.
-2. **Download Files:** Grab the `ROCmLibs.zip` file and the `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z`  (originally
+2. **Download Files:** Grab the `ROCmLibs-arch titles .zip or 7z` file .For example the ROCmlibs for gfx1103 woud be `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z`  (originally
 `ROCmLibsgfx1103.zip`) from this repository.
 3. **Installation:**
-    * Unzip `ROCmLibs.zip`. Place the extracted library folder into your %HIP_PATH%\bin\rocblas directory,
+    * Unzip `ROCmLibs.zip or 7z`. Place the extracted library folder into your %HIP_PATH%\bin\rocblas directory,
 renaming the existing "rocblas" folder (e.g., to "oldlibrary").
-    * Copy the `rocblas.dll` file from the downloaded `ROCmLibs.zip`  into the rocblas\library folder within your
+    * Copy the `rocblas.dll` file from the downloaded `ROCmLibs.zip or 7z`  into the rocblas\library folder within your
 %HIP_PATH%\bin directory (example: C:\Program Files\AMD\ROCm\5.7\bin). Replace the original file.
     * Rename your existing "rocblas\library" folder (e.g., to "origlibrary").
     * Extract the contents of `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z` into the same directory where you placed  the ROCmLibs
