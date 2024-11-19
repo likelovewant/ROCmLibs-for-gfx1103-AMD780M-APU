@@ -89,7 +89,7 @@ supported architectures.
 
 > [!IMPORTANT]
 > This 7z archive,
->"rocBLAS-Custom-Logic-Files-for-rx580-90c-navi10-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix.7z",
+>"rocBLAS-Custom-Logic-Files-for-rx580-vega8-90c-navi10-navi12-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix.7z",
 >contains logic files optimized for various AMD GPUs (Rx 580, Vega series, Navi 10-26, Rembrandt, Phoenix).
 > To build rocBLAS and utilize these custom logic files, please refer to the detailed guide provided in the
 [wiki](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki)
