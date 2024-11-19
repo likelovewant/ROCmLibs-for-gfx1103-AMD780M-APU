@@ -87,15 +87,20 @@ For the AMD 780M APU on Windows, we recommend using one of these files:
 Choose the appropriate `.7z` file based on your AMD GPU architecture. Refer to the release page for a complete list of
 supported architectures.
 
+> [!IMPORTANT]
+> **This 7z archive,
+"rocBLAS-Custom-Logic-Files-for-rx580-90c-navi10-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix.7z",
+contains logic files optimized for various AMD GPUs (Rx 580, Vega series, Navi 10-26, Rembrandt, Phoenix).**
 
+> **To build rocBLAS and utilize these custom logic files, please refer to the detailed guide provided in the
+wiki:** [wiki](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki)
 
 **Creating Issues:**
 
 
-Please refrain from creating issues in this repository for unrelated topics like ollama-for-amd. If you encounter
-problems with those projects, please submit issues directly to the respective repositories. This helps us
-maintain a clear and organized workflow.
+Please refrain from creating issues in this repository for unrelated topics like ollama-for-amd. Maintaining a well-organized project benefits everyone. Therefore, please submit issues related to
+ollama-for-amd to the correct repository. This helps keep things clear and streamlined.
 
-We appreciate your understanding and cooperation!
+Much appreciate your understanding and cooperation!
 
 Let me know if you have any further questions or need assistance with your ROCm setup!
