@@ -50,6 +50,8 @@ The builded ROCmlibs for the other arches listed above moved to released page .
 
 [Hip SDK 6.1.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.1.2)
 
+[Hip SDK 6.2.4](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.2.4)
+
 For detailed
 instructions on adding support for additional GPUs, please refer to the wiki page.
 
@@ -79,6 +81,7 @@ For the AMD 780M APU on Windows, recommend using one of these files:
 * **rocm gfx1103 AMD 780M phoenix V2.0 for hip sdk 5.7.7z:** Compatible with HIP SDK 5.7.1
 * **rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z:**  Compatible with HIP SDK 5.7.1
 * **rocm gfx1103 AMD 780M phoenix V4.0 for hip sdk 6.1.2.7z:** Compatible with HIP SDK 6.1.2
+* **rocm gfx1103 AMD 780M phoenix V5.0 for hip sdk 6.2.4.7z:** Compatible with HIP SDK 6.2.4
 
 
 **Important:**
