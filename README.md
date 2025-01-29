@@ -15,14 +15,12 @@ to address this gap in official support.The license may also comply with this if
 2. **Download Files:** Grab the `ROCmLibs-arch titles .zip or 7z` file .For example the ROCmlibs for gfx1103 woud be `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z`  (originally
 `ROCmLibsgfx1103.zip`) from this repository.
 3. **Installation:**
-    * Unzip `ROCmLibs-arch titles.zip or 7z`. Place the extracted library folder into your %HIP_PATH%\bin\rocblas directory,
-renaming the existing "rocblas" folder (e.g., to "oldlibrary").
-    * Copy the `rocblas.dll` file from the downloaded `ROCmLibs-arch titles.zip or 7z`  into the rocblas\library folder within your
-%HIP_PATH%\bin directory (example: C:\Program Files\AMD\ROCm\5.7\bin). Replace the original file.
-    * Rename your existing "rocblas\library" folder (e.g., to "origlibrary").
-    * Extract the contents of `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z` into the same directory where you placed  the ROCmLibs
-folder.
-4. **Reboot:** Restart your computer for the changes to take effect (not a must do).
+    * Backup. Backup the originally `library` and `rocblas.dll` in your` %HIP_PATH%\bin\` an `%HIP_PATH%\bin\ rocblas` directory,
+by renaming the existing `rocblas` folder (e.g., to `oldlibrary`, and `rocbals.dll` to `oldrocblas.dll` ( backup is only for development purpose otherwise simply delete theme).
+    * Unzip `ROCmLibs-arch titles.zip or 7z`. Place the extracted `library` folder into your `%HIP_PATH%\bin\rocblas` directory,
+place the `rocblas.dll` into   `%HIP_PATH%\bin\`  (example: `C:\Program Files\AMD\ROCm\5.7\bin`). Replace the original file.
+   
+4. **Reboot(optional):** Restart your computer for the changes to take effect (not a must do).
 
 **That's it! Your AMD GPU is now ready to harness the power of optimized ROCm libraries.**
 
@@ -96,7 +94,7 @@ supported architectures.
 
 > [!IMPORTANT]
 > This 7z archive,
->`rocBLAS-Custom-Logic-Files.7z` -for-rx580-vega8-90c-navi10-navi12-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix-890m,
+>`rocBLAS-Custom-Logic-Files.7z` -for-rx580-vega8-90c-navi10-navi12-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix-890m(equal to 880m also),
 >contains logic files optimized for various AMD GPUs (Rx 580, Vega series, Navi 10-26, Rembrandt, Phoenix).
 > To build rocBLAS and utilize these custom logic files, please refer to the detailed guide provided in the
 [wiki](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki)
