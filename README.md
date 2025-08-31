@@ -11,7 +11,7 @@ to address this gap in official support.The license may also comply with this if
 
 **Here's a simplified guide on how to get started:**
 
-1. **Prerequisites:** Ensure you have the HIP SDK installed for Windows or ROCm for Linux.
+1. **Prerequisites:** Ensure you have the HIP SDK installed for Windows .
 2. **Download Files:** Grab the `ROCmLibs-arch titles .zip or 7z` file .For example the ROCmlibs for gfx1103 woud be `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z`  (originally
 `ROCmLibsgfx1103.zip`) from this repository.
 3. **Installation:**
@@ -50,6 +50,8 @@ The builded ROCmlibs for the other arches listed above moved to released page .
 
 [Hip SDK 6.2.4](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.2.4)
 
+[Hip SDK 6.4.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.2.4)
+
 For detailed
 instructions on adding support for additional GPUs, please refer to the wiki page.
 
@@ -80,7 +82,7 @@ For the AMD 780M APU on Windows, recommend using one of these files:
 * **rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z:**  Compatible with HIP SDK 5.7.1
 * **rocm gfx1103 AMD 780M phoenix V4.0 for hip sdk 6.1.2.7z:** Compatible with HIP SDK 6.1.2
 * **rocm gfx1103 AMD 780M phoenix V5.0 for hip sdk 6.2.4.7z:** Compatible with HIP SDK 6.2.4
-
+* **rocm gfx1103 for hip sdk 6.4.2.7z:** Compatible with HIP SDK 6.4.2
 
 **Important:**
 
@@ -94,7 +96,7 @@ supported architectures.
 
 > [!IMPORTANT]
 > This 7z archive,
->`rocBLAS-Custom-Logic-Files.7z` -for-rx580-vega8-90c-navi10-navi12-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix-890m(equal to 880m also),
+>`rocBLAS-Custom-Logic-Files.7z` -for-rx580-vega8-90c-navi10-navi12-navi14-navi22-navi23-navi24-rembrandt-navi26-phoenix-890m(equal to 880m also)-halo52-halo53,
 >contains logic files optimized for various AMD GPUs (Rx 580, Vega series, Navi 10-26, Rembrandt, Phoenix).
 > To build rocBLAS and utilize these custom logic files, please refer to the detailed guide provided in the
 [wiki](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/wiki)
