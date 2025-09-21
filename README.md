@@ -50,7 +50,7 @@ The builded ROCmlibs for the other arches listed above moved to released page .
 
 [Hip SDK 6.2.4](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.2.4)
 
-[Hip SDK 6.4.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.2.4)
+[Hip SDK 6.4.2](https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/tag/v0.6.4.2)
 
 For detailed
 instructions on adding support for additional GPUs, please refer to the wiki page.
