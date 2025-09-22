@@ -15,10 +15,10 @@ to address this gap in official support.The license may also comply with this if
 2. **Download Files:** Grab the `ROCmLibs-arch titles .zip or 7z` file .For example the ROCmlibs for gfx1103 woud be `rocm gfx1103 AMD780M phoenix V3 for hip sdk 5.7.7z`  (originally
 `ROCmLibsgfx1103.zip`) from this repository.
 3. **Installation:**
-    * Backup. Backup the originally `library` and `rocblas.dll` in your` %HIP_PATH%\bin\` an `%HIP_PATH%\bin\ rocblas` directory,
-by renaming the existing `rocblas` folder (e.g., to `oldlibrary`, and `rocbals.dll` to `oldrocblas.dll` ( backup is only for development purpose otherwise simply delete theme).
-    * Unzip `ROCmLibs-arch titles.zip or 7z`. Place the extracted `library` folder into your `%HIP_PATH%\bin\rocblas` directory,
-place the `rocblas.dll` into   `%HIP_PATH%\bin\`  (example: `C:\Program Files\AMD\ROCm\5.7\bin`). Replace the original file.
+    * Backup. Backup the originally `rocblas.dll` file in `%HIP_PATH%\bin\` and `library` folder in `%HIP_PATH%\bin\rocblas`,
+by renaming them (e.g., `rocbals.dll` to `oldrocblas.dll` and `library` to `oldlibrary`). (Backup is only for development purpose otherwise simply delete them).
+    * Unzip `ROCmLibs-arch titles.zip or 7z`. Place the extracted `library` folder into `%HIP_PATH%\bin\rocblas`,
+and `rocblas.dll` into `%HIP_PATH%\bin\` (example: `C:\Program Files\AMD\ROCm\5.7\bin`). Replace the original files when Windows asks.
    
 4. **Reboot(optional):** Restart your computer for the changes to take effect (not a must do).
 
